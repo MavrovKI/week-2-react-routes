@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const DashboardMain = () => {
+const Main = () => {
   return (
     <div>
       <div id="title">Main</div>
@@ -11,5 +11,5 @@ const DashboardMain = () => {
   )
 }
 
-DashboardMain.propTypes = {}
-export default DashboardMain
+Main.propTypes = {}
+export default Main
