@@ -18,6 +18,7 @@ const Header = () => {
           <Link to={`/${userName}`}> Back to the List of Repositories</Link>
         </div>
       )}
+      <a href='https://www.skillcrucial.com/' className="flex items-right flex-shrink-0 text-white"> Skillcrucial.com</a>
     </nav>
   )
 }
