@@ -11,7 +11,7 @@ const MainInput = () => {
     setUserName(e.target.value)
   }
   return (
-    <div className="bg-teal-500 text-white font-bold rounded-lg border shadow-lg">
+    <div className="bg-teal-500 font-bold rounded-lg border shadow-lg">
       <input
         id="input-field"
         plaseholder="Search"
@@ -19,7 +19,7 @@ const MainInput = () => {
         value={userName}
         onChange={doChange}
       />
-      <button id="search-button" type="button" onClick={doClick}>
+      <button id="search-button" type="button" onClick={doClick} className="text-white">
         Search
       </button>
     </div>
