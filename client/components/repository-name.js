@@ -4,7 +4,7 @@ import Markdown from 'markdown-to-jsx'
 const RepositoryName = (props) => {
   return (
     <div>
-      <Markdown id="#description">{props.text}</Markdown>
+      <Markdown id="description">{props.text}</Markdown>
     </div>
   )
 }
