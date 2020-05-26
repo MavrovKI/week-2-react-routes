@@ -13,13 +13,13 @@ const MainInput = () => {
   return (
     <div className="bg-teal-500 font-bold rounded-lg border shadow-lg">
       <input
-        id="input-field"
+        id="#input-field"
         plaseholder="Search"
         type="text"
         value={userName}
         onChange={doChange}
       />
-      <button id="search-button" type="button" onClick={doClick} className="text-white">
+      <button id="#search-button" type="button" onClick={doClick} className="text-white">
         Search
       </button>
     </div>
